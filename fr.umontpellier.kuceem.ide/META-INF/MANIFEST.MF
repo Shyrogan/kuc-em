@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: fr.umontpellier.kuceem.ide
+Bundle-ManifestVersion: 2
+Bundle-Name: fr.umontpellier.kuceem.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: fr.umontpellier.kuceem.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: fr.umontpellier.kuceem,
+ qcm,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-21
